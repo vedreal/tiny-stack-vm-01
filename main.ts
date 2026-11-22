@@ -1,6 +1,6 @@
 // Tiny stack VM for make.fun's tiny-stack-vm-01-run-20261122: an exact port of
-// the reference VM (generator/subject/vm.mjs) — every trap, limit and edge
-// case matches ISA.md. Node 22, stdlib only, no clock, no randomness.
+// the reference VM (program/generator/subject/vm.mjs) — every trap, limit and
+// edge case matches ISA.md. Node 22, stdlib only, no clock, no randomness.
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
